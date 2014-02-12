@@ -1,0 +1,11 @@
+<h3>{{title}}</h3>
+
+{{#each locations}}
+<p><strong>{{place}}</strong><br/>
+Coordinates: {{latitude}} / {{longitude}}<br/>
+<a href='/elevation/{{id}}'>Elevation</a><br/>
+<a href='/suntimes/{{id}}'>Sunrise and Sunset Times</a><br/>
+<a href="/currenttime/{{id}}">Current Time</a>
+
+</p>
+{{/each}}
